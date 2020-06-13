@@ -29,7 +29,7 @@ public class TomatoCrop extends CropsBlock {
 
 	@Override
 	protected IItemProvider getSeedsItem() {
-		return ItemInit.TOMATO_SEED.get();
+		return ItemInit.TOMATO_SEEDS.get();
 	}
 
 	@Override
