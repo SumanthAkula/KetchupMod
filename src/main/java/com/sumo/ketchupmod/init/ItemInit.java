@@ -17,6 +17,8 @@ public class ItemInit {
 			new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().setAlwaysEdible().hunger(6).build())));
 	public static final RegistryObject<Item> KETCUP_BOTTLE = ITEMS.register("ketchup_bottle",
 			() -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
+	public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
+			() -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
 
 	public static final RegistryObject<Item> TOMATO_SEED = ITEMS.register("tomato_seed",
 			() -> new BlockItem(BlockInit.TOMATO_CROP.get(), new Item.Properties().group(ItemGroup.MISC)));
