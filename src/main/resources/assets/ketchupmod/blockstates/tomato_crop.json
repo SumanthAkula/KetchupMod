@@ -1,0 +1,28 @@
+{
+	"variants": {
+		"age=0": {
+			"model": "ketchupmod:block/tomato_crop_models/tomato_crop0"
+		},
+		"age=1": {
+			"model": "ketchupmod:block/tomato_crop_models/tomato_crop1"
+		},
+		"age=2": {
+			"model": "ketchupmod:block/tomato_crop_models/tomato_crop2"
+		},
+		"age=3": {
+			"model": "ketchupmod:block/tomato_crop_models/tomato_crop3"
+		},
+		"age=4": {
+			"model": "ketchupmod:block/tomato_crop_models/tomato_crop4"
+		},
+		"age=5": {
+			"model": "ketchupmod:block/tomato_crop_models/tomato_crop5"
+		},
+		"age=6": {
+			"model": "ketchupmod:block/tomato_crop_models/tomato_crop6"
+		},
+		"age=7": {
+			"model": "ketchupmod:block/tomato_crop_models/tomato_crop7"
+		}
+	}
+}

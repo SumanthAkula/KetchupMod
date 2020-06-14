@@ -1,0 +1,6 @@
+{
+	"parent": "block/crop",
+	"textures": {
+		"crop": "ketchupmod:blocks/tomato_crop_textures/tomato_crop_stage3"
+	}
+}
