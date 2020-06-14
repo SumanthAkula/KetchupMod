@@ -236,26 +236,7 @@
 				},
 				{
 					"type": "item",
-					"weight": 1,
-					"name": "ketchupmod:tomato_seeds",
-					"functions": [
-						{
-							"function": "set_count",
-							"count": {
-								"min": 2,
-								"max": 8
-							}
-						}
-					]
-				}
-			]
-		},
-		{
-			"rolls": 1,
-			"entries": [
-				{
-					"type": "item",
-					"weight": 1,
+					"weight": 5,
 					"name": "ketchupmod:tomato_seeds",
 					"functions": [
 						{
