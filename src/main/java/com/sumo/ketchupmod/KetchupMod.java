@@ -43,7 +43,6 @@ public class KetchupMod {
 
 	@SubscribeEvent
 	public static void onRegisterItems(final RegistryEvent.Register<Item> event) {
-		LOGGER.debug("registing items");
 		final IForgeRegistry<Item> registry = event.getRegistry();
 		BlockInit.BLOCKS.getEntries().stream().filter(block -> !(block.get() instanceof TomatoCrop))
 				.map(RegistryObject::get).forEach(block -> {
