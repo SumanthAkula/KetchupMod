@@ -20,6 +20,8 @@ public class ItemInit {
 			() -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
 	public static final RegistryObject<Item> TOMATO = ITEMS.register("tomato",
 			() -> new Item(new Item.Properties().group(ItemGroup.FOOD)));
+	public static final RegistryObject<Item> EMPTY_JAR = ITEMS.register("empty_jar",
+			() -> new Item(new Item.Properties().group(ItemGroup.MISC)));
 
 	public static final RegistryObject<Item> TOMATO_SEEDS = ITEMS.register("tomato_seeds",
 			() -> new BlockItem(BlockInit.TOMATO_CROP.get(), new Item.Properties().group(ItemGroup.MISC)));
