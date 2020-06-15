@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"xxx",
+		"xax",
+		"xxx"
+	],
+	"key": {
+		"x": {
+			"item": "ketchupmod:tomato"
+		},
+		"a": {
+			"item": "ketchupmod:empty_jar"
+		}
+	},
+	"result": {
+		"item": "ketchupmod:ketchup_bottle",
+		"count": 1
+	}
+}
