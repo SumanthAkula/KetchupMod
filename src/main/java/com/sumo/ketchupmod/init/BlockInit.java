@@ -1,6 +1,7 @@
 package com.sumo.ketchupmod.init;
 
 import com.sumo.ketchupmod.KetchupMod;
+import com.sumo.ketchupmod.objects.blocks.FryerBlock;
 import com.sumo.ketchupmod.objects.blocks.TomatoCrop;
 
 import net.minecraft.block.Block;
@@ -15,4 +16,6 @@ public class BlockInit {
 
 	public static final RegistryObject<Block> TOMATO_CROP = BLOCKS.register("tomato_crop",
 			() -> new TomatoCrop(Block.Properties.from(Blocks.WHEAT)));
+
+	public static final RegistryObject<Block> FRYER_BLOCK = BLOCKS.register("fryer", () -> new FryerBlock(Block.Properties.from(Blocks.FURNACE)));
 }
